@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Booking Website</title>
+    <style>
+        
+        body, h1, h2, ul, li, p {
+            margin: 0;
+            padding: 0;
+        }
+
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #051301;
+        }
+
+        header {
+            background-color: #08510b;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        header nav {
+            margin-top: 10px;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-right: 20px;
+        }
+
+        header nav ul li:last-child {
+            margin-right: 0;
+        }
+
+        header nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .search-bar {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-bar input[type="text"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+            width: 70%;
+        }
+
+        .search-bar button {
+            background-color: #199a23;
+            color: #3a3535;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        .event-list {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .event-card {
+            background-color: #18be4a;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgb(47, 29, 29);
+            padding: 20px;
+        }
+
+        .event-card img {
+            max-width: 100%;
+            height: 250px;
+            border-radius: 5px;
+        }
+
+        .event-title {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .event-date {
+            font-size: 14px;
+            color: #d5d1e1;
+        }
+
+        .event-description {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .cta-button {
+            background-color: #ded8d8;
+            color: #0f0f0f;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+       
+
+    </style>
+</head>
+<body>
+    <header>
+        
+        <div class="logo">Ticket Booking</div>
+        <nav>
+            <ul>
+                <li><a href="ticket.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="booking.html">Book now </a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="search-bar">
+            <input type="text" placeholder="Search events...">
+            <button >search</button>
+        </div>
+    </header>
+
+    <section class="event-list">
+        
+        <div class="event-card">
+            <img src="C:\Users\ashis\Downloads\Stand up Comedy.jpeg" alt="The ultimate standup show">
+            <h2 class="event-title"> THE ULIMATE STANDUP SHOW</h2>
+            <p class="event-date">Date: January 15, 2024</p>
+            <p class="event-description">World wide standup comediens are going to show their best to the world wide public.</p>
+            <a class="cta-button" href="" >  Book Now </a>
+        </div>
+
+        <div class="event-card">
+            <img src="C:\Users\ashis\Downloads\Fifa Finals.jpeg" alt="Event 1">
+            <h2 class="event-title"> FIFA FINALE SCREENING</h2>
+            <p class="event-date">Date: January 19, 2024</p>
+            <p class="event-description">Have the plesure to enjoy the epic finals between Argentina and France.</p>
+            <a class="cta-button" href="#">Book Now</a>
+        </div>
+
+        <div class="event-card">
+            <img src="C:\Users\ashis\Downloads\Yoga Day.jpeg" alt="Event 1">
+            <h2 class="event-title"> INTERNATIONAL YOGA DAY !</h2>
+            <p class="event-date">Date: January 22, 2024</p>
+            <p class="event-description">Practice yoga with the Prime Minister Narendra Modi.</p>
+            <a class="cta-button" href="#">Book Now</a>
+        </div>
+
+        <div class="event-card">
+            <img src="C:\Users\ashis\Downloads\CSK vs RCB.jpeg" alt="Event 1">
+            <h2 class="event-title"> IPL MATCH RCB VS CSK </h2>
+            <p class="event-date">Date: January 24, 2024</p>
+            <p class="event-description">The most awaited match between the best leader and the best caption.</p>
+            <a class="cta-button" href="#">Book Now</a>
+        </div>
+
+        <div class="event-card">
+            <img src="C:\Users\ashis\Downloads\Independence Day.jpeg" alt="Event 1">
+            <h2 class="event-title">Independence day</h2>
+            <p class="event-date">Date: January 26, 2024</p>
+            <p class="event-description">Flag hoisting event at 9am .</p>
+            <a class="cta-button" href="#">Book Now</a>
+        </div>
+
+        <div class="event-card">
+            <img src="C:\Users\ashis\Downloads\Smart India Hackathon.jpg" alt="rer">
+            <h2 class="event-title">Smart India Hackathon</h2>
+            <p class="event-date">Date: January 30, 2024</p>
+            <p class="event-description">Showcase the best coding skills you have.</p>
+            <a class="cta-button" href="#">Book Now</a>
+        </div>
+
+
+        
+
+    </section>
+</body>
+</html>

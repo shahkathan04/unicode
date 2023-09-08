@@ -1,0 +1,103 @@
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: 'Arial', sans-serif;
+background-color: #f0f0f0;
+}
+
+header {
+background-color: #1c2331;
+color: #fff;
+text-align: center;
+padding: 20px 0;
+}
+
+header h1 {
+font-size: 48px;
+margin-bottom: 10px;
+}
+
+nav ul {
+list-style-type: none;
+}
+
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+
+nav ul li a {
+text-decoration: none;
+color: #fff;
+font-weight: bold;
+transition: color 0.3s;
+}
+
+nav ul li a:hover {
+color: #f04;
+}
+
+.hero {
+background-image: url('your-background-image.jpg');
+background-size: cover;
+background-position: center;
+text-align: center;
+padding: 150px 0;
+color: #fff;
+}
+
+.hero h2 {
+font-size: 60px;
+margin-bottom: 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 15px 30px;
+background-color: #f04;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+.btn:hover {
+background-color: #d50000;
+}
+
+.features {
+display: flex;
+justify-content: space-around;
+padding: 40px 0;
+background-color: #fff;
+}
+
+.feature {
+text-align: center;
+padding: 20px;
+border: 1px solid #e0e0e0;
+border-radius: 5px;
+}
+
+.feature h3 {
+font-size: 28px;
+margin-bottom: 10px;
+color: #1c2331;
+}
+
+.feature p {
+font-size: 18px;
+color: #777;
+}
+
+.footer {
+text-align: center;
+background-color: #1c2331;
+color: #fff;
+padding: 20px 0;
+}
